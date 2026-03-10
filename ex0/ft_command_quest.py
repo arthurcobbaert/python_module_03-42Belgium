@@ -3,8 +3,8 @@ import sys
 if __name__ == "__main__":
 	print("=== Command Quest ===")
 	
-	total_len: int = len(sys.argv)
 	argv: list[str] = sys.argv
+	total_len: int = len(argv)
 	if total_len == 1:
 		print("No arguments provided!")
 		print(f"Program name: {argv[0]}")
